@@ -1,9 +1,7 @@
 use strict;
 use warnings;
 package MooseY;
-# ABSTRACT: ...
-
-
+# ABSTRACT: Document the MooseY namespace
 
 1;
 __END__
@@ -12,23 +10,21 @@ __END__
 
 =head1 SYNOPSIS
 
-    use $name;
+    package MyClass;
+    use MooseY;
 
     ...
 
 =head1 DESCRIPTION
 
-...
+The C<MooseY::*> namespace is I<tentatively> for modules that use L<Moose>,
+but are dependent on L<Moose> in some way (i.e. it would have no meaning
+outside of a Moose context).  This is to set the module apart from modules
+that provide I<extensions> to L<Moose>, which belong in the C<MooseX::*>
+namespace.
 
-=head1 FUNCTIONS/METHODS
-
-=over 4
-
-=item * C<foo>
-
-...
-
-=back
+(This documentation is a preliminary placeholder for more information. Patches
+welcome!)
 
 =head1 SUPPORT
 
@@ -38,15 +34,13 @@ Bugs may be submitted through L<the RT bug tracker|https://rt.cpan.org/Public/Di
 (or L<bug-MooseY@rt.cpan.org|mailto:bug-MooseY@rt.cpan.org>).
 I am also usually active on irc, as 'ether' at C<irc.perl.org>.
 
-=head1 ACKNOWLEDGEMENTS
-
-...
-
 =head1 SEE ALSO
 
 =begin :list
 
-* L<foo>
+* L<Moose::Manual::MooseX>
+* L<MooseX>
+* L<http://www.nntp.perl.org/group/perl.moose/2013/06/msg2644.html>
 
 =end :list
 
