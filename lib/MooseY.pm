@@ -36,12 +36,9 @@ I am also usually active on irc, as 'ether' at C<irc.perl.org>.
 
 =head1 SEE ALSO
 
-=begin :list
-
+=for :list
 * L<Moose::Manual::MooseX>
 * L<MooseX>
 * L<http://www.nntp.perl.org/group/perl.moose/2013/06/msg2644.html>
-
-=end :list
 
 =cut
