@@ -21,7 +21,7 @@ __END__
 
 =head1 DESCRIPTION
 
-The C<MooseY::*> namespace is I<tentatively> for modules that use L<Moose>,
+The C<MooseY::*> namespace is I<tentatively> for modules that do not simply use L<Moose>,
 but are dependent on L<Moose> in some way (i.e. it would have no meaning
 outside of a Moose context).  This is to set the module apart from modules
 that provide I<extensions> to L<Moose>, which belong in the C<MooseX::*>
