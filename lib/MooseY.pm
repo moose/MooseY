@@ -2,6 +2,7 @@ use strict;
 use warnings;
 package MooseY;
 # ABSTRACT: Document the MooseY namespace
+# KEYWORDS: Moose documentation namespace nomenclature best-practices extensions ecosystem
 
 our $VERSION = '0.002';
 
