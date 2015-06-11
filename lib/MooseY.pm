@@ -3,6 +3,8 @@ use warnings;
 package MooseY;
 # ABSTRACT: Document the MooseY namespace
 
+our $VERSION = '0.002';
+
 1;
 __END__
 
