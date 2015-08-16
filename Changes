@@ -1,6 +1,7 @@
 Revision history for MooseY
 
 {{$NEXT}}
+          - repository migrated to the github moose organization
 
 0.001     2013-06-10 19:54:13Z
           - Initial release.
