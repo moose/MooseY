@@ -3,7 +3,7 @@ use warnings;
 package MooseY;
 # ABSTRACT: Document the MooseY namespace
 # KEYWORDS: Moose documentation namespace nomenclature best-practices extensions ecosystem
-# vim: set ts=8 sts=4 sw=4 tw=78 et :
+# vim: set ts=8 sts=4 sw=4 tw=115 et :
 
 our $VERSION = '0.002';
 
